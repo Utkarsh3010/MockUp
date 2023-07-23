@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>mockup</title>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="inner">
+                <img src="/images/butterfly.png" alt="">
+                <button><i class="ri-search-line"></i></button>
+            </div>
+            <div class="inner-2">
+                <button><i class="ri-home-4-fill"></i></button>
+                <button><i class="ri-file-copy-2-line"></i></button>
+                <button><i class="ri-profile-line"></i></button>
+                <button><i class="ri-user-3-line"></i></button>
+            </div>
+            <div class="inner-3">
+                <button><i class="ri-notification-line"></i></button>
+                <button><i class="ri-logout-box-r-line"></i></button>
+            </div>
+        </div>
+        <div class="container-1">
+            <div class="container-1-inner">
+                <img src="/images/man_2202112.png" alt="" srcset="">
+                <h1>Hi Mike,<br><span>Welcome Back.</span></h1>
+            </div>
+            <div class="container-2-inner">
+                <div class="cont-inner-2-1">
+                    <h2>Today</h2>
+                    <h1>$19,892</h1>
+                    <p>Account Balance</p>
+                    <h2>$4,000</h2>
+                    <p>Year-to-Date Contributions</p>
+                    <button>I want to</i></button>
+                </div>
+                <div class="cont-inner-2-2">
+                    <h2>Recent Transactions</h2>
+                    <p>2020-08-07 <br> <span>Withdrawal Transfer to Bank-XXX11</span></p>
+                    <hr>
+                    <p>2020-07-21 <br><span>Withdrawal Transfer to Bank-XXX11</span></p>
+                    <hr>
+                    <p>2020-07-16 <br><span>Withdrawal Transfer to Bank-XXX11</span></p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="container2-heading">
+                <h2>Retirement Income</h2>
+                <h1>Starting Year 2056</h1>
+                <div class="container2-heading-inner">
+                    <div class="mygoalCont">
+                        <h3>$300,000</h3>
+                        <p>My Goal</p>
+                        <hr>
+                    </div>
+                    <div class="mygoalCont">
+                        <h3>59%</h3>
+                        <p>Goal Achieved</p>
+                        <hr>
+                    </div>
+                    <div class="mygoalCont">
+                        <h3>$300</h3>
+                        <p>Est. Monthly Income</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="container2-chart">
+                <h2>Contributions Overtime</h2>
+                <div class="employee-status">
+                    <div class="employee">
+                        <div class="oval"></div>
+                        <p>Employer: <span>K 73,500</span></p>
+                    </div>
+                    <div class="employee">
+                        <div class="oval-2"></div>
+                        <p>Employee: <span>K 52,500</span></p>
+                    </div>
+                    <div class="employee">
+                        <div class="oval-3"></div>
+                        <p>Total Interest: <span>K 244,313</span></p>
+                    </div>
+                </div>
+                <div class="chart">
+                    <canvas id="barchart"></canvas>
+                </div>
+                <div class="per-status">
+                    <h2>How do I compare to my peers?</h2>
+                    <p>These numbers represent current goal achievement</p>
+                        <div class="age-div">
+                            <h4>Age: <span>Under 30</span></h4>
+                            <hr>
+                            <h4>Salary: <span>k20-k30</span></h4>
+                            <hr>
+                            <h4>Gender: <span>Male</span></h4>  
+                        </div>
+                </div>
+            </div>
+            <div class="container2-right">
+                <h3>Retirement Strategy</h3>
+                <div class="emp-contri">
+                    <p>Employee Contribution</p>
+                    <div class="box">
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                          </div>
+                        <div class="value">100</div>
+                    </div>
+                </div>
+                <div class="emp-contri">
+                    <p>Retirement Age</p>
+                    <div class="box">
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                          </div>
+                        <div class="value2">100</div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="last-div">
+                    <p>Employer Contribution <span class="span1">8.4%</span></p>
+                    <p>Interest Rate <span class="span2">5%</span></p>
+                    <button>Update</button>
+                </div>
+                <a  class="last-div-tag" href="#">View Help Docs></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

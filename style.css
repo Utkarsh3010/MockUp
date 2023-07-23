@@ -1,0 +1,374 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 90px;
+    background-color: #FFFFFF;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    height: 8vw;
+}
+.inner img{
+    width: 100%;
+    height: 3vw;
+}
+.inner button{
+    border: none;
+    height: 30px;
+    background: transparent;
+}
+
+.inner i{
+    font-size: 25px;
+}
+
+.inner-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 20vw;
+}
+.inner-2 button{
+    border: none;
+    height: 30px;
+    background: transparent;
+}
+.inner-2 i{
+    font-size: 25px;
+}
+.inner-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 8vw;
+}
+.inner-3 button{
+    border: none;
+    height: 30px;
+    background: transparent;
+}
+.inner-3 i{
+    font-size: 25px;
+}
+.container-1{
+    height: 100%;
+    width: 25vw;
+    background-color: #FAFAFA;
+}
+.container-1-inner{
+    display: flex;
+    width: 100%;
+    height: 8vw;
+    gap: 15px;
+}
+.container-1-inner img{
+    width: 75px;
+    height: 5vw;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.container-1-inner h1{
+    margin-top: 15px;
+}
+.container-1-inner span{
+    font-size: 15px;
+    color: #828282;
+}
+.container-2-inner{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    height: 41vw;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+.cont-inner-2-1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    height: 20vw;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+.cont-inner-2-1 h1{
+    margin-top: 15px;
+}
+.cont-inner-2-1 h2{
+    margin-top: 15px;
+}
+.cont-inner-2-1 p{
+    color: #CBCBCB;
+}
+.cont-inner-2-1 button{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #4935FF;
+    color: #fff;
+    margin-top: 25px;
+    padding: 12px 28px;
+    border-radius: 12px;
+}
+.cont-inner-2-2{
+    height: 20vw;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.cont-inner-2-2 h2{
+    margin-bottom: 20px;
+}
+.cont-inner-2-2 hr{
+    margin: 15px;
+    margin-left: 0px;
+}
+.cont-inner-2-2 p{
+    color: #828282;
+}
+.cont-inner-2-2 span{
+    color: #000;
+}
+.container-2{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.container2-heading{
+    height: 15vw;
+    width: 70%;
+}
+.container2-heading h2{
+    margin-top: 12px;
+    margin-left: 25px;
+    color: #7162FF;
+}
+.container2-heading h1{
+    margin-top: 1.5px;
+    margin-left: 25px;
+    color: #414141;
+}
+.container2-heading-inner{
+    display: flex;
+    height: 9vw;
+    width: 100%;
+    margin-top: 15px;
+}
+.mygoalCont{
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.mygoalCont h3{
+    font-size: 25px;
+    color: #333333;
+}
+.mygoalCont p{
+    color: #828282;
+}
+.mygoalCont hr{
+    margin-top: 8px;
+    border: 1px solid #4935FF;
+    border-radius: 15px;
+}
+.container2-chart{
+    height: 33.3vw;
+    width: 70%;
+}
+.container2-chart>h2{
+    margin-left: 25px;
+}
+.employee-status{
+    display: flex;
+    margin-left: 25px;
+    height: 2vw;
+    width: 100%;
+    margin-top: 8px;
+}
+.employee{
+    display: flex;
+    align-items: center;
+    height: 2vw;
+    width: 25%;
+}
+.employee p{
+    margin-left: 10px;
+    color: #C8C8C8;
+}
+.employee span{
+    margin-left: 5px;
+    color: #333333;
+}
+.oval{
+    height: 10px;
+    width: 25px;
+    background-color: #0800A3;
+    border-radius: 35%;
+}
+.oval-2{
+    height: 10px;
+    width: 25px;
+    background-color: #4935FF;
+    border-radius: 35%;
+}
+.oval-3{
+    height: 10px;
+    width: 25px;
+    background-color:#85AFFF;
+    border-radius: 35%;
+}
+.chart{
+    margin-top: 15px;
+    margin-left: 25px;
+    height: 20vw;
+    width: 100%;
+}
+.per-status{
+    height: 8vw;
+    width: 100%;
+}
+.per-status h2{
+    margin-left: 25px;
+}
+.per-status p{
+    margin-left: 25px;
+    color: #828282;
+}
+.age-div{
+    height: 4.7vw;
+    width: 43%;
+}
+.age-div h4{
+    color: #333333;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.age-div span{
+    margin-left: 5px;
+    color: #828282;
+}
+.age-div hr{
+    margin-left: 25px;
+    width: 50%;
+    border: 1px solid #828282;
+    border-radius: 1px;
+}
+.container2-right{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: 25px;
+    height: 30vw;
+    width: 25%;
+    background-color: #fafafa;
+}
+.container2-right h3{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.emp-contri{
+    margin-top: 10px;
+    height: 4vw;
+    width: 100%;
+}
+.emp-contri p{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.box{
+    margin-left: 15px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    border-radius: 5px;  
+    background: #90eafe;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: white;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 20%;
+    background: white;
+    cursor: pointer;
+  }
+  .emp-contri hr{
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 15px;
+    border: 1px solid #414141;
+  }
+  .last-div{
+    margin-top: 35px;
+    height: 12vw;
+    width: 100%;
+  }
+  .last-div p{
+    margin: 15px 15px;
+    font-weight: 100;
+  }
+  .span1{
+    margin-left: 12%;
+  }
+  .span2{
+    margin-left: 37%;
+  }
+  .last-div button{
+    width: 150px;
+    height: 50px;
+    margin-left: 25%;
+    border: 1px solid black;
+    background-color: #4935FF;
+    color: #fff;
+    margin-top: 25px;
+    padding: 12px 28px;
+    border-radius: 12px;
+  } 
+ .last-div-tag{
+    text-decoration: none;
+    margin-left: 25%;
+    color: #4935FF;
+ }
